@@ -9,11 +9,11 @@ Operator | Description | Associativity
 `\` | [Namespace separator](/hack/source-code-fundamentals/namespaces)  | Left
 `$` | [Name operator](/hack/source-code-fundamentals/names) for variables, constants, functions, and user-defined types | Right
 `::` | [Scope resolution](/hack/expressions-and-operators/scope-resolution)  | Left
-`[]` | [Index resolution]((/hack/expressions-and-operators/subscript)) for Hack Arrays and Strings | Left
+`[]` | [Index resolution](/hack/expressions-and-operators/subscript) for Hack Arrays and Strings | Left
 `->`, `?->` | [Property selection](/hack/expressions-and-operators/member-selection) and [null-safe property selection](/hack/expressions-and-operators/member-selection#null-safe-member-access) | Left
 `new` | [Object creation & Memory allocation](/hack/expressions-and-operators/new) | None
 `#`, `()` | [Enum class labels](/hack/built-in-types/enum-class-label) and [Function calling](/hack/functions/introduction) | Left
-`clone` | Object cloning (shallowly, not deeply) | None
+`clone` | Clone an object | None
 `readonly`, `await`, `++` `--` (postfix) | [Assigning readonly](/hack/readonly/explicit-readonly-keywords), [Suspending an async function](/hack/expressions-and-operators/await), and [Incrementing / Decrementing](/hack/expressions-and-operators/incrementing-and-decrementing) (postfix) | Right
 `(int)` `(float)` `(string)`, `**`, `@`, `++` `--` (prefix) | [Casting](/hack/expressions-and-operators/casting), [Exponentiation](/hack/expressions-and-operators/arithmetic#exponent), [Suppressing errors](/hack/expressions-and-operators/error-control), and [Incrementing / Decrementing](/hack/expressions-and-operators/incrementing-and-decrementing) (prefix) | Right
 `is`, `as` `?as` |[Type checks / Type assertions](/hack/expressions-and-operators/type-assertions) | Left
